@@ -1,0 +1,25 @@
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15rem;
+    color: rgba(221, 0, 255, 0.903);
+}
+
+
+
+
+
+
+
+
+.pro{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 40px;
+    gap:20px
+}

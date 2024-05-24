@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.boxs {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    margin: 10px;
+
+
+    .imggg {
+        width: 100%;
+        height: 20rem;
+
+        img {
+            width: 100%;
+            height: 15rem;
+        }
+
+    }
+
+
+    .texttt {
+        width: 80%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+        padding: 20px 0;
+
+
+
+        p {
+            font-family: "Playfair+Display", times, serif;
+            font-size: 24px;
+            line-height: 24px;
+            font-weight: 500;
+            color: rgb(152, 103, 38);
+
+            &:hover {
+
+                color: rgb(255, 192, 248);
+            }
+        }
+
+
+        span {
+            font-family: "Mukta Mahee", arial, sans-serif;
+            font-size: 16px;
+            line-height: 29px;
+            font-weight: 200;
+            color: rgb(11, 16, 83);
+            font-style: italic;
+        }
+
+    }
+}
+
+
+.btnn {
+    width: 100%;
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+
+    .btn1 {
+        width: 50%;
+        padding: 10px 5px;
+        border-radius: 22px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        font-style: normal;
+        color: rgb(125, 118, 118);
+        font-family: "Mukta Mahee", arial, sans-serif;
+        background-color: rgb(255, 192, 248);
+        cursor: pointer;
+        border: none;
+        transition: .4s ease;
+
+        &:hover {
+            background-color: white;
+            color: rgb(255, 192, 248);
+        }
+    }
+
+    .btn2 {
+        width: 50%;
+        padding: 10px 5px;
+        border-radius: 22px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        font-style: normal;
+        color: white;
+        font-family: "Mukta Mahee", arial, sans-serif;
+        background-color: rgba(70, 70, 178, 0.523);
+        cursor: pointer;
+        border: none;
+        transition: .4s ease;
+
+        &:hover {
+            background-color: white;
+            color: rgba(70, 70, 178, 0.523);
+        }
+    }
+}

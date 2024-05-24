@@ -1,0 +1,100 @@
+.sectwo {
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .contTwo {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 24px;
+
+
+
+        .textTwo {
+            width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+
+            p {
+                font-family: "Mukta Mahee", arial, sans-serif;
+                font-size: 15px;
+                line-height: 18px;
+                font-weight: 500;
+                color: rgb(179, 179, 179);
+            }
+        }
+
+        .cards {
+            width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+
+            .box {
+                width: 30%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+
+                .imgbox {
+                    width: 95%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                }
+
+                img {
+                    width: 100%;
+                }
+
+                .textbox {
+                    width: 90%;
+                    display: flex;
+                    align-items: space-between;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin: 10px;
+
+                    p {
+                        font-family: "Playfair+Display", times, serif;
+                        font-size: 20px;
+                        line-height: 24px;
+                        font-weight: 500;
+                        color:
+                            rgb(0, 0, 0);
+                    }
+
+                    .sp {
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        span {
+                            font-family: "Mukta Mahee", arial, sans-serif;
+                            font-size: 16px;
+                            line-height: 29px;
+                            font-weight: 200;
+                            color: rgb(179, 179, 179);
+                            font-style: italic;
+                        }
+
+                    }
+                }
+
+            }
+        }
+    }
+
+}

@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair+Display", times, serif;
+}
+
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15rem;
+    color: rgba(0, 26, 255, 0.903);
+}
+
+.pro{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 40px;
+    gap:20px
+}
+
+.inp{
+    width: 40%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+   
+
+
+    input{
+        width: 100%;
+        height: 3rem;  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        outline: none;
+       font-size: 18px;
+ 
+    }
+}
+
+.h2{
+    width: 45%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 255, 94, 0.603);
+}
+
+.sortedBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 40px 0;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.349);
+    button{
+        color: rgb(230, 28, 93);
+            border: 1px solid rgb(230, 28, 93);
+            border-radius: 100px;
+            background-color: white;
+            padding: 2px 25px;
+            font-weight: 500;
+            font-size: 16px;
+            transition: 0.5s ease;
+            &:hover{
+                cursor: pointer;
+                background-color: rgb(230, 28, 93);
+                color: white;
+                border: 2px solid black;
+            }
+    }
+}
+
+.formBox{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    h3{
+        font-size: 24px;
+        color: rgb(230, 28, 220);
+        font-weight: 700;
+        transition: 0.5s ease;
+        border-bottom: 1px solid transparent;
+        &:hover{
+            cursor: pointer;
+            // border-bottom: 1px solid black;
+        }
+    }
+
+
+    .form{
+        width: 55%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        input{
+            border: 1px solid rgb(89, 28, 230);
+            // border-radius: 3px;
+            outline: none;
+            // padding: 2px 5px;
+        }
+        button{
+            color: rgb(230, 28, 93);
+            // border: 1px solid rgb(230, 28, 93);
+            border-radius: 100px;
+            background-color: white;
+            padding: 2px 15px;
+            font-weight: 500;
+            font-size: 16px;
+            transition: 0.5s ease;
+            &:hover{
+                cursor: pointer;
+                background-color: rgb(230, 28, 200);
+                color: white;
+                border: 2px solid black;
+            }
+        }
+    }
+}
+
+
+.cardsBox{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+}
